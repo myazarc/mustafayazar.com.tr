@@ -1,0 +1,45 @@
+Arguments: 
+  /home/myc/.nvm/versions/node/v18.13.0/bin/node /home/myc/.yarn/bin/yarn.js add [200~yarn add -D vuepress@next~
+
+PATH: 
+  /home/myc/.yarn/bin:/home/myc/.config/yarn/global/node_modules/.bin:/home/myc/.yarn/bin:/home/myc/.config/yarn/global/node_modules/.bin:/home/myc/.nvm/versions/node/v18.13.0/bin:/home/myc/.npm-global/bin:/home/myc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/myc/.dotnet/tools:/home/myc/Android/Sdk/tools:/home/myc/Android/Sdk/platform-tools:/opt/gradle/gradle-7.4/bin:/home/myc/Android/Sdk/tools:/home/myc/Android/Sdk/platform-tools:/emulator:/opt/gradle/gradle-7.4/bin:/home/myc/Android/Sdk/tools:/home/myc/Android/Sdk/platform-tools:/emulator:/opt/gradle/gradle-7.4/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/[200~yarn: Request path contains unescaped characters
+      at new NodeError (node:internal/errors:400:5)
+      at new ClientRequest (node:_http_client:183:13)
+      at Object.request (node:https:360:10)
+      at module.exports.Request.start (/home/myc/.yarn/lib/cli.js:141445:32)
+      at module.exports.Request.end (/home/myc/.yarn/lib/cli.js:142204:10)
+      at end (/home/myc/.yarn/lib/cli.js:141258:14)
+      at Immediate.<anonymous> (/home/myc/.yarn/lib/cli.js:141272:7)
+      at process.processImmediate (node:internal/timers:471:21)
+
+npm manifest: 
+  {
+    "name": "mustafayazar.com.tr",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/myazarc/mustafayazar.com.tr",
+    "author": "myazarc <myazarc@yandex.com>",
+    "license": "MIT",
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,15 @@
+{
+  "name": "mustafayazar.com.tr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/myazarc/mustafayazar.com.tr",
+  "author": "myazarc <myazarc@yandex.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.60"
+  }
+}
