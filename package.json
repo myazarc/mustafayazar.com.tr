@@ -1,15 +1,19 @@
 {
   "name": "mustafayazar.com.tr",
-  "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/myazarc/mustafayazar.com.tr",
   "author": "myazarc <myazarc@yandex.com>",
-  "license": "MIT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "keywords": [],
+  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.60"
+    "@vuepress/client": "2.0.0-beta.60",
+    "vue": "^3.2.45",
+    "vuepress": "2.0.0-beta.60"
   }
 }
