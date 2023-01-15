@@ -1,3 +1,4 @@
+import googleAnalyticsPlugin from "@vuepress/plugin-google-analytics";
 import searchPlugin from "@vuepress/plugin-search";
 import { defaultTheme } from "vuepress";
 import { defineUserConfig } from "vuepress";
@@ -30,6 +31,9 @@ export default defineUserConfig({
   }),
 
   plugins: [
+    googleAnalyticsPlugin({
+      id: "G-VBC8X5DMHK",
+    }),
     searchPlugin({
       locales: {
         "/": {
