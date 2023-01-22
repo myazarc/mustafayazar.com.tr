@@ -24,7 +24,7 @@ export default defineUserConfig({
       "/": [
         {
           text: "Son Yazılar",
-          children: ["/blog/chatgpt.md"],
+          children: ["/blog/iklimdegisikligi.md", "/blog/chatgpt.md"],
         },
       ],
     },
