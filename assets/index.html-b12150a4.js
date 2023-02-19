@@ -1,0 +1,1 @@
+import{_ as a,p as o,q as t,R as e,t as n}from"./framework-96b046e1.js";const r={},l=e("h1",{id:"hello-world-again",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#hello-world-again","aria-hidden":"true"},"#"),n(" Hello World Again 😃")],-1),c=[l];function d(s,i){return o(),t("div",null,c)}const h=a(r,[["render",d],["__file","index.html.vue"]]);export{h as default};
