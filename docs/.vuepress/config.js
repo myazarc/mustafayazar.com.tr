@@ -24,7 +24,7 @@ export default defineUserConfig({
       "/": [
         {
           text: "Son Yazılar",
-          children: ["/blog/iklimdegisikligi.md", "/blog/chatgpt.md"],
+          children: ["/blog/hotel/microservice-otel-otomasyonu.md", "/blog/iklimdegisikligi.md", "/blog/chatgpt.md"],
         },
       ],
     },
